@@ -1,0 +1,795 @@
+a
+{
+    text-decoration: none;
+}
+span
+{
+    color: red;
+}
+h2
+{
+    text-align: center;
+    font-family: "游ゴシック";
+    font-size: 30px;
+}
+::placeholder
+{
+    color: rgba(63, 109, 235, 0.5);
+}
+
+
+/** ここからloginHeader/header**/
+.header
+{
+    top: 0%;
+    left :0%;
+    background-color: rgba(0, 0, 0, 0.4);
+    width:100%;
+    height:70px;
+    border-radius: 5px;
+    position: relative;
+    position: fixed;
+    z-index: 5;
+}
+#headerOver
+{
+    position: absolute;
+    top:40%;
+    left:4%;
+}
+#headerOver a
+{
+    color:white;
+    font-size: 27px;
+    font-family: 'ＭＳ ゴシック',sans-serif;
+}
+#headerLink
+{
+    position: absolute;
+    top:50%;
+    right:4%;
+}
+#headerLink a
+{
+    color:white;
+    font-size: 17px;
+    font-family: 'ＭＳ ゴシック',sans-serif;
+    margin-left: 20px;
+}
+.marginBox
+{
+    height:70px;
+    width:100%;
+}
+
+
+
+/** ここからfooter **/
+.footer
+{
+    margin-top: 50px;
+    position: relative;
+}
+.footer img
+{
+    width: 100%;
+    height: 200px;
+    border-radius: 5px;
+}
+#footerCover
+{    
+    position: absolute ;
+    top: 0%;
+    left: 0%;
+    background-color: rgba(255, 255, 255, 0.25);
+    width: 100%;
+    height: 200px;
+}
+#parts
+{
+    display: flex;
+    position: absolute;
+    top:0%;
+    right:0%;
+}
+#parts img
+{
+    height:190px;
+    width: 180px;
+    margin-top: 5px;
+}
+#parts p
+{
+    font-size: 35px;
+    color:/**rgb(0, 0, 75)**/white;
+    margin-top: 140px;
+    font-family: "Comic Sans MS";  
+}
+
+
+
+/**ここからlogin.php**/
+.login
+{
+    padding-top: 40px;
+    padding-left: 30%;
+    margin-bottom: 30px;
+}
+#email
+{
+    display: flex;
+}
+#password
+{
+    display: flex;
+    margin-top: 40px;
+    margin-bottom: 0px;
+    
+}
+#email p
+{
+    margin-right: 75px;
+}
+#password p
+{
+    margin-right: 108px;
+}
+#loginBtn
+{
+    margin-left: 40%;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-size: 18px;
+    background-color: white;
+    border-radius: 10px;
+    border:2px solid grey;
+}
+.login a
+{
+    margin-left: 40%;
+}
+
+
+
+
+/**ここからnewAcount.php**/
+.newAcount
+{
+    padding-top: 40px;
+    padding-left: 30%;
+    margin-bottom: 30px;
+}
+#newName
+{
+    display: flex;
+}
+#newEmail
+{
+    display: flex;
+    margin-top: 40px;
+}
+#newPassword
+{
+    display: flex;
+    margin-top: 40px;
+}
+#newHistory
+{
+    display: flex;
+    margin-top: 40px;
+}
+#newGuiter
+{
+    display: flex;
+    margin-top: 40px;
+}
+#newArtist1
+{
+    display: flex;
+    margin-top: 40px;
+}
+#newArtist2
+{
+    display: flex;
+    margin-top: 40px;
+}
+#newArtist3
+{
+    display: flex;
+    margin-top: 40px;
+}
+#newMusic1
+{
+    display: flex;
+    margin-top: 40px;
+}
+#newMusic2
+{
+    display: flex;
+    margin-top: 40px;
+}
+#newMusic3
+{
+    display: flex;
+    margin-top: 40px;
+}
+#newName p
+{
+    margin-right: 92px;
+}
+#newEmail p
+{
+    margin-right: 75px;
+}
+#newPassword p
+{
+    margin-right: 108px;
+}
+#newHistory p
+{
+    margin-right: 141px;
+}
+#newGuiter p
+{
+    margin-right: 110px;
+}
+#newArtist1 p
+{
+    margin-right: 40px;
+}
+#newArtist2 p
+{
+    margin-right: 40px;
+}
+#newArtist3 p
+{
+    margin-right: 40px;
+}
+#newMusic1 p
+{
+    margin-right: 120px;
+}
+#newMusic2 p
+{
+    margin-right: 120px;
+}
+#newMusic3 p
+{
+    margin-right: 120px;
+}
+#checkBtn
+{
+    font-size: 18px;
+    margin-left: 40%;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    background-color: white;
+    border-radius: 10px;
+    border: 2px solid grey;
+}
+.newAcount a
+{
+    margin-left: 40%;
+}
+
+
+/**ここからnewAcountCreate.php**/
+.checkTable
+{
+    width:700px;
+    margin:30px auto;
+}
+.checkTable table
+{
+    margin: 0 auto;
+}
+.checkTable td
+{
+    border-bottom:1px solid black;
+    height:50px;
+    width: 200px;
+}
+#submitBox
+{
+    display: flex;
+}
+#registerBtn
+{
+    width: 140px;
+    font-size: 18px;
+    margin-top: 40px;
+    margin-left: 200px;
+    margin-bottom: 20px;
+    background-color: white;
+    border-radius: 10px;
+    border: 2px solid grey;
+}
+#backBtn
+{
+    width: 140px;
+    font-size: 18px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    background-color: white;
+    border-radius: 10px;
+    border: 2px solid grey;
+}
+
+
+
+/**ここからindex.php**/
+.mainTitle
+{
+    position: relative;
+    margin-bottom:100px;
+    margin:30px auto 50px auto;
+    width:90%;
+}
+.mainTitle img
+{
+    display:block;
+    margin:30px auto 50px auto;
+    box-shadow: 2px 2px 10px gray;
+    width: 100%;
+    height: 470px;
+    border-radius: 5px;
+}
+#mainTitleCover
+{
+    position: absolute;
+    top:0%;
+    left: 0%;
+    width: 100%;
+    height: 470px;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+#titleMes
+{
+    z-index: 2;
+    position: absolute;
+    top:50%;
+    left:55%;
+    width:600px; 
+    transform: rotate( -15deg );
+}
+#titleMes p
+{
+    margin:0%;
+    font-size: 30px;    
+    font-family: "Comic Sans MS";  
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.selectKey
+{
+    display: flex;
+    width:90%;
+    margin: 0 auto;
+}
+#keyC,#keyD,#keyE,#keyF,#keyG,#keyA,#keyB
+{
+    margin: 0 auto;
+}
+#keyC p,#keyD p,#keyE p,#keyF p,#keyG p,#keyA p,#keyB p
+{
+    font-size: 60px;
+    font-weight: bold;
+    color: black;
+    width:120px;
+    height: 60px;
+    border:2px solid gray;
+    border-radius: 20px;
+    text-align: center;
+    font-family: "MS Mincho";
+}
+.indexComent
+{
+    margin: 0 auto;
+}
+.indexComment p
+{
+    text-align: center;
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+
+/**ここからscale.php**/
+#scaleTitle1
+{
+    margin-top: 50px;
+}
+#scaleTitle2
+{
+    margin-top: 50px;
+}
+#scaleTitle3
+{
+    margin-top: 50px;
+}
+#scaleTitle4
+{
+    margin-top: 50px;
+}
+#majorScaleTop,
+#majorScaleBottom,
+#majorPentScale,
+#minorScaleTop,
+#minorScaleBottom,
+#minorPentScale
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+#majorScaleTop img,
+#majorScaleBottom img,
+#majorPentScale img,
+#minorScaleTop img,
+#minorScaleBottom img,
+#minorPentScale img
+{
+    margin: 0px auto 10px auto;
+    height: 230px;
+    width: 210px;
+    border:1px solid rgba(165, 161, 161,0.1);
+    border-radius: 10px;
+    
+}
+
+
+/**ここからnewPost.php**/
+#newPostBox
+{
+    margin: 0 auto;
+    padding-left: 25%;
+    
+}
+#main_keyBox,#main_scaleBox,#progress_chordBox,#in_chordBox,#A_chordBox,
+#B_chordBox,#main_chordBox,#C_chordBox,#out_chordBox,#bodyBox
+{
+    display: flex;
+    margin-bottom: 20px;
+}
+#main_keyBox input
+{
+    font-size: 16px;
+    margin-left: 82px;
+    margin-right: 20px;
+    width:300px;
+}
+#main_scaleBox input
+{
+    font-size: 16px;
+    margin-left: 50px;
+    margin-right: 20px;
+    width:300px;
+}
+#progress_chordBox input
+{
+    font-size: 16px;
+    margin-left: 67px;
+    margin-right: 20px;
+    width:300px;
+}
+#in_chordBox input
+{
+    font-size: 16px;
+    margin-left: 92px;
+    margin-right: 20px;
+    width:300px;
+}
+#A_chordBox input
+{
+    font-size: 16px;
+    margin-left: 113px;
+    margin-right: 20px;
+    width:300px;
+}
+#B_chordBox input
+{
+    font-size: 16px;
+    margin-left: 113px;
+    margin-right: 20px;
+    width:300px;
+}
+#main_chordBox input
+{
+    font-size: 16px;
+    margin-left: 123px;
+    margin-right: 20px;
+    width:300px;
+}
+#C_chordBox input
+{
+    font-size: 16px;
+    margin-left: 113px;
+    margin-right: 20px;
+    width:300px;
+}
+#out_chordBox input
+{
+    font-size: 16px;
+    margin-left: 92px;
+    margin-right: 20px;
+    width:300px;
+}
+#bodyBox textarea
+{
+    margin-left: 115px;
+    margin-right: 20px;
+    width:300px;
+    height:200px;
+    font-size: 15px;
+}
+#newPostSubmit
+{
+    width:140px;
+    font-size: 18px;
+    margin: 40px 0px 20px 45%;
+    background-color: white;
+    border-radius: 10px;
+    border:2px solid grey;
+}
+.returnTopBox
+{
+    width:120px;
+    margin-left: 75%;
+    border: 2px solid gray;
+    border-radius: 20px;
+    font-family: Yu Gothic,"游ゴシック";
+    text-align: center;
+}
+.returnTopBox a
+{
+    
+    font-size: 18px;
+}
+
+
+
+
+/**ここからmenu.php**/
+
+#userData
+{
+    display: flex;
+    justify-content: center;
+}
+#userData h2
+{
+    margin: 50px 60px 0px 60px;
+}
+#userData a
+{
+    margin-top: 80px;
+    margin-left: 70px;
+}
+
+
+
+/** ここからmenu.php**/
+#bigPostTable
+{
+    display:flex;
+    flex-wrap: wrap;
+}
+.postTable
+{  
+    width: 500px;
+    margin: 40px auto;
+    border :1px solid black;
+    border-radius:10px;
+    padding: 10px;
+}
+.postTable table
+{
+    background-color: rgba(0, 0, 0, 0.025);
+    border-radius:10px;
+}
+.postTable tr ,.postTable td
+{
+    border-bottom :0.5px solid black;
+    border-radius:5px;
+}
+.postTable td
+{
+    font-size: 20px;
+    height: 70px;
+    padding: 10px;
+}
+.option a
+{
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+
+
+
+
+/** ここからdetail.php**/
+#bigDetail
+{
+    width:60%;
+    margin:40px auto;
+    padding: 0px 40px 30px 40px;
+    border:1px solid rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+}
+#bigDetail p
+{
+    text-align: center;
+    font-size: 25px;
+    
+}
+#detailScale p
+{
+    text-align: right;
+}
+#detailTable
+{
+    margin-bottom: 30px;
+}
+#detailTable table
+{
+    margin: 0px auto;
+    font-size: 20px;
+}
+#detailTable td
+{
+    height: 40px;
+}
+#detailBody
+{
+    margin: auto;
+    width:80%;
+    border:1px solid rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    padding:5px;
+    margin-bottom: 50px;    
+}
+#detailBody p
+{
+    text-align: left;
+    font-size: 18px;
+}
+#makerDetail
+{
+    display: flex;
+    justify-content: center;
+}
+#makerDetailLeft p
+{
+    font-size: 20px;
+}
+#makerDetailRight table
+{
+    font-size: 20px;
+}
+.toEdit
+{
+    margin-top: 10px;
+    margin-left: 60%;
+}
+.toEdit a
+{
+    font-size: 18px;
+    margin-right: 20px;
+    padding: 7px;
+    border: 2px solid gray;
+    border-radius: 20px;
+    font-family: Yu Gothic,"游ゴシック";
+
+}
+
+
+
+
+/** ここからlogout.php**/
+#logoutBox
+{
+    width:150px;
+    margin-left: 70%;
+}
+
+
+
+/**ここからmemScale.php**/
+#memNew
+{
+    width:100px;
+    margin-left: 80%;
+    border: 2px solid gray;
+    border-radius: 20px;
+    text-align: center;
+}
+#memNew a
+{
+    font-size: 18px;
+    font-family: Yu Gothic,"游ゴシック";
+}
+#bigMemTable
+{
+    display:flex;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+}
+.memTable
+{
+    width:30%;
+    margin:20px auto;
+    border:1px solid black;
+    border-radius:10px;
+    box-shadow: 2px 2px 4px gray;
+    padding: 10px;
+}
+.memTitle p
+{
+    text-decoration: underline;
+}
+.memBody p
+{
+    text-decoration: underline;
+}
+.memBodyBox
+{
+    border:1px solid gray;
+    border-radius:10px;
+    margin-bottom: 15px;
+}
+.memBodyBox p
+{
+    text-decoration: none;
+}
+.memOption
+{
+    margin-left: 80%;
+}
+
+
+
+/**ここからallDetail.php**/
+#niceBox
+{
+    display: flex;
+    margin-left: 70%;
+}
+#niceBox p
+{
+    font-size: 18px;
+}
+#niceBtn
+{
+    font-size: 16px;
+    margin-left: 20px;
+    background-color: white;
+    border-radius: 20px;
+    border: 2px solid grey;
+    height:60px;
+}
+
+
+#sideBar
+{
+    width :150px;
+    position:fixed;
+    bottom: 5%;
+    right:-0.1%;
+    z-index: 5;
+    border: 1px solid gray;
+    text-align: right;
+    border-radius: 3px;
+    box-shadow: -2px 2px 4px gray;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding-right: 5px;
+    display: none;
+}
+
+#sideBar a
+{
+    font-size: 15px;
+    line-height: 2.5;
+    font-family: Yu Gothic,"游ゴシック";
+    font-style: italic;
+}
